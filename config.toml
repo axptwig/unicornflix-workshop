@@ -1,0 +1,51 @@
+RelativeURLs=true
+CanonifyURLs=true
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "UnicornFlix"
+theme = "learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+uglyurls = true
+sectionPagesMenu = "main"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+[params]
+  editURL = "https://code.amazon.com/packages/Aws-workshop-template/blobs/master/--/workshop/content/"
+  description = "UnicornFlix"
+  author = "Ashwin Raghuraman"
+  disableBreadcrumb = false
+  disableNextPrev = false
+  themeVariant = "aws"
+  disableSearch = false
+  disableAssetsBusting = true
+  disableLanguageSwitchingButton = false
+  disableShortcutsTitle = true
+  disableInlineCopyToClipBoard = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = true
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[Languages]
+[Languages.en]
+title = "My AWS Workshop"
+weight = 1
+languageName = "English"
+
+[Languages.fr]
+title = "Mon atelier AWS"
+weight = 2
+languageName = "Français"
