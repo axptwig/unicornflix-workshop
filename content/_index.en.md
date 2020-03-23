@@ -23,8 +23,3 @@ The workshop is split into three primary sections with a collection of optional 
 **Web Client User View** - Stream videos to users who have signed into the service.
 
 **Optional Extensions** - An optional section containing a collection of tutorials to extend the application functionality.
-
-
-{{% button href="https://issues.amazon.com/issues/create?template=f084dc94-e920-4d98-80f7-252d5cc7ce00" icon="fas fa-bug" %}}Report an issue{{% /button %}}
-{{% button href="mailto:aws-sa-customer-engagements@amazon.com" icon="fas fa-envelope" %}}Contact Event Outfitters{{% /button %}}
-{{% button href="https://w.amazon.com/bin/view/AWS/Teams/SA/Customer_Engagements/" icon="fas fa-graduation-cap" %}}Learn more{{% /button %}}
